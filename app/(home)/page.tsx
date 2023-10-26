@@ -1,27 +1,27 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Footer from './(components)/footer/footer';
-import Header  from './(components)/header/header';
-import bannerImage from './../public/image/banner3.jpg'; 
-import bannerImage1 from './../public/image/banner4.jpg'; 
-import bannerImage2 from './../public/image/banner5.jpg'; 
-import card1 from './../public/image/cards2.jpg'; 
-import card from './../public/image/card1.jpg'; 
-import logo from './../public/image/facebook.png'; 
-import logo1 from './../public/image/Instagram.png'; 
-import logo2 from './../public/image/twitter.png'; 
-import logo3 from './../public/image/youtube.png'; 
-import member1 from './../public/image/member1.png'; 
+import Footer from './../(components)/footer/footer';
+import Header  from './../(components)/header/header';
+import bannerImage from './../../public/image/banner3.jpg'; 
+import bannerImage1 from './../../public/image/banner4.jpg'; 
+import bannerImage2 from './../../public/image/banner5.jpg'; 
+import card1 from './../../public/image/cards2.jpg'; 
+import card from './../../public/image/card1.jpg'; 
+import logo from './../../public/image/facebook.png'; 
+import logo1 from './../../public/image/Instagram.png'; 
+import logo2 from './../../public/image/twitter.png'; 
+import logo3 from './../../public/image/youtube.png'; 
+import member1 from './../../public/image/member1.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image'; 
-import './styles.css';
+import './../styles.css';
 const Home: React.FC = () => {
 
   return (
     <div>
-      <Header />
       <main>
         <div className='cont'>
           <div className='top-margin'></div>
@@ -447,7 +447,6 @@ const Home: React.FC = () => {
           </div>
         </div>
       </main>
-      <Footer />
     </div>
   );
 };
