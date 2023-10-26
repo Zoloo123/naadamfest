@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import Link from 'next/link';
 const Header: React.FC = () => {
   return (
         // <header className="header-fixed">
@@ -25,12 +26,13 @@ const Header: React.FC = () => {
 
         // </header>
         <header className="header">
-          <a href="" className="logo"><p>Naadam Festival</p> <span className='logospan'>Fascinating event of the nomads</span></a>
+          <a href="/" className="logo"><h1>Naadam Festival</h1> <span className='logospan'>Fascinating event of the nomads</span></a>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
           <ul className="menu">
-            <li><a href="#work">HOME</a></li>
-            <li><a href="#about">NAADAM FESTIVAL TOURS</a></li>
+            <li>
+                <Link href="/alltours">NAADAM FESTIVAL TOURS</Link>
+            </li>
             <li><a href="#careers">TRAVEL SUPPORT</a></li>
             <li><a href="#contact">TAILOR MADE HOLIDAY</a></li>
             <li><a href="#contact">CONTACT US</a></li>
