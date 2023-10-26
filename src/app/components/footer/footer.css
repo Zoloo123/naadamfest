@@ -1,0 +1,17 @@
+.title {
+    color: #FF6600;
+    font-size: 1.2rem;
+}
+p {
+    color: #828c8f;
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+.garegories a {
+    color: #111;
+    text-decoration: none;
+}
+
+.garegories a :hover {
+    color: #0d6efd;
+}
