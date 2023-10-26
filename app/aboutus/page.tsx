@@ -5,13 +5,11 @@ import React from 'react';
 
 const page = () => {
   return (
-    <>
+    <div>
       <Header/>
-        <section className='cont'>
-          <p>test </p>
-        </section>
+        <div>Text1</div>
       <Footer/>
-    </>
+    </div>
   )
 }
 export default page

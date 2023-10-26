@@ -31,13 +31,26 @@ const Header: React.FC = () => {
           <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
           <ul className="menu">
             <li>
+                <Link href="/">HOME</Link>
+            </li>
+            <li>
                 <Link href="/alltours">NAADAM FESTIVAL TOURS</Link>
             </li>
-            <li><a href="#careers">TRAVEL SUPPORT</a></li>
-            <li><a href="#contact">TAILOR MADE HOLIDAY</a></li>
-            <li><a href="#contact">CONTACT US</a></li>
-            <li><a href="#contact">ABOUT US</a></li>
-            <li><a href="#contact">REQUEST BROCHURE</a></li>
+            <li>
+                <Link href="/travelsupport">TRAVEL SUPPORT</Link>
+            </li>
+            <li>
+                <Link href="/tailormadeholiday">TAILOR MADE HOLIDAY</Link>
+            </li>
+            <li>
+                <Link href="/contactus">CONTACT US</Link>
+            </li>
+            <li>
+                <Link href="/aboutus">ABOUT US</Link>
+            </li>
+            <li>
+                <Link href="/requestbrochure">REQUEST BROCHURE</Link>
+            </li>
           </ul>
         </header>
   );
