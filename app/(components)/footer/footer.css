@@ -22,3 +22,9 @@ footer {
     position: relative; /* Use relative positioning */
     bottom: 0; /* Position it at the bottom of its containing element */
 }
+.customtextarea {
+    height: 150px !important;
+}
+.form-floating label {
+    color: #828c8f;
+}

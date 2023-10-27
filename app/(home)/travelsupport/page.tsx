@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
         <div className='cont1 container'>
-          <div>Home | Travel Support</div>
+          <div><p>Home | Travel Support</p></div>
         </div>
         <div className=' support-main'>
           <h1 className='mb-3'>Mongolia Travel Information</h1>

@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
       <div className='container-fluid  address'>
           <div className='row address-title'>
             <h1 className='text-center'>WE ARE HERE TO HELP</h1>
-            <p className='text-center'>
+            <p className='text-center mb-3'>
               Whether you have a single question or a special request, we're here for you.
             </p>
             <div className='col col-md-6 col-12'>
@@ -28,17 +28,30 @@ const Footer: React.FC = () => {
                 <p className='text-center contract-text  mb-3'>
                   We will be happy to answer your questions about the Naadam Festival tours. Kindly provide the details below to know more about joining our extraordinary Naadam Festival exclusive tours.
                 </p>
-                <div className="input-group mb-3">
+                {/* <div className="input-group mb-3">
                   <input type="text" className="form-control border-secondary-subtle"  placeholder="Your name" aria-label="Amount (to the nearest dollar)"/>
                 </div>
 
                 <div className="input-group mb-3">
                   <input type="email" className="form-control border-secondary-subtle" placeholder="Your email" aria-label="email"/>
-                </div>
+                </div> */}
 
-                <div className="input-group">
+                {/* <div className="input-group">
                   <textarea className="form-control customtextarea border-secondary-subtle" aria-label="With textarea" placeholder='Your message'></textarea>
+                </div> */}
+                <div className="form-floating mb-3">
+                  <input type="text" className="form-control" id="floatingName" placeholder="Your name"/>
+                  <label htmlFor="floatingInput">Your name</label>
                 </div>
+                <div className="form-floating mb-3">
+                  <input type="email" className="form-control" id="floatingEmail" placeholder="email"/>
+                  <label htmlFor="floatingPassword">Your email</label>
+                </div>
+                <div className="form-floating">
+                  <textarea className="form-control customtextarea" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label htmlFor="floatingTextarea">Your message</label>
+                </div>
+                
                 <button className="btn btn-primary mt-3 " type="submit">Send</button>
               </div>
             </div>
