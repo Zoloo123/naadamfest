@@ -1,0 +1,77 @@
+.cont1 {
+    padding-top: 118.34px;
+}
+
+@media (max-width: 1468px) {
+    .cont1 {
+        padding-top: 162.5px;
+    }
+}
+@media (max-width: 1063px) {
+    .cont1 {
+        padding-top: 119.28px;
+    }
+}
+
+@media (min-width: 1064px) {
+    .socialicon{
+        width: 25px;
+    }
+    /* fixed social*/
+    #fixed-social {
+        position: fixed;
+        top:calc(50% - 82px);
+        right: 0;
+    }
+    #fixed-social a {
+        color: #fff;
+        display: block;
+        height: 40px;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+        width: 40px;
+        margin-bottom: 1px;
+        z-index: 2;
+    }
+    #fixed-social a:hover>span{
+        visibility: visible !important;
+        right: 41px ;
+        opacity: 1 ;
+    } 
+    #fixed-social a span {
+        line-height: 40px;
+        right: 60px;
+        position: absolute;
+        text-align: center;
+        width: 120px;
+        visibility: hidden;
+        transition-duration: 0.5s;
+        z-index: 9999;
+        opacity: 0;
+    }
+    .fixed-facebook{
+        background-color: #ff6600;
+    }
+    .fixed-facebook span{
+        background-color: #ff6600;
+    }
+    .fixed-twitter{
+        background-color: #ff6600;
+    }
+    .fixed-twitter span{
+        background-color: #ff6600;
+    }
+    .fixed-instagrem{
+        background-color: #ff6600;
+    }
+    .fixed-instagrem span{
+        background-color: #ff6600;
+    }
+    .fixed-tumblr{
+        background-color: #ff6600;
+    }
+    .fixed-tumblr span{
+        background-color: #ff6600;
+    }
+  }

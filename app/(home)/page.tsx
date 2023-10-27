@@ -13,9 +13,10 @@ import logo2 from './../../public/image/twitter.png';
 import logo3 from './../../public/image/youtube.png'; 
 import member1 from './../../public/image/member1.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faShareNodes } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 import Image from 'next/image'; 
 import './../styles.css';
 const Home: React.FC = () => {
@@ -359,7 +360,7 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className='container-fluid  address'>
+        {/* <div className='container-fluid  address'>
           <div className='row address-title'>
             <h1 className='text-center'>WE ARE HERE TO HELP</h1>
             <p className='text-center'>
@@ -409,8 +410,8 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className='connect-us'>
+        </div> */}
+        {/* <div className='connect-us'>
           <div className='connect-top'>
             <hr/>
           </div>
@@ -430,8 +431,8 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className='members row  d-flex align-items-center justify-content-center container mb-5'>
+        </div> */}
+        {/* <div className='members row  d-flex align-items-center justify-content-center container mb-5'>
           <div className='col-6 col-md-3 col-lg-2  member-content'><h1>We Are <br />Member</h1></div>
           <div className='col-6 col-md-3 col-lg-2 member-content'>
             <a href="#"><Image src={member1} alt="members"/></a>
@@ -445,7 +446,7 @@ const Home: React.FC = () => {
           <div className='col-6 col-md-12 col-lg-2 member-content'>
             <a href="#"><Image src={member1} alt="members"/></a>
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );
